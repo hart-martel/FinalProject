@@ -1,0 +1,87 @@
+
+body {
+    background-color: #C1E1C1;
+}
+
+/* for the images */
+img {
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* for the logo style */
+.logo {
+    border: 5px solid black;
+    border-radius: 150px; 
+    margin: 3px;
+    width: 300px;
+    height: 300px;
+}
+
+/* container for images or products */
+.container {
+    border: 5px solid black;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#C1E1C1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* to make a grid of images */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* styling the images that are grided itself */
+  .image-grid img {
+    border-radius: 40px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+/*Animation of images */
+  .image-grid img:hover {
+    transform: scale(1.1);
+  }
+
+  .slideDisplay {
+    BORDER: 3px solid black;
+    border-radius: 50px;
+    HEIGHT: 300px;
+    WIDTH: 300px;
+  }
+
+.slideContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.buttonContainer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.prevButton, .nextButton {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: #ddd;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prevButton:hover, .nextButton:hover {
+  background-color: #555;
+  color: #fff;
+}
