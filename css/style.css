@@ -1,11 +1,27 @@
 
 body {
-    background-color: #C1E1C1;
-}
+    background-image: url("background-store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+marquee {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #66fcf1;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    color: #66fcf1;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
 /* for the images */
 img {
-    border: 3px solid black;
+    border: 5px solid #66fcf1;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
     border-radius: 20px;
@@ -13,7 +29,7 @@ img {
 
 /* for the logo style */
 .logo {
-    border: 5px solid black;
+    border: 5px solid #66fcf1;
     border-radius: 150px; 
     margin: 3px;
     width: 300px;
@@ -22,10 +38,9 @@ img {
 
 /* container for images or products */
 .container {
-    border: 5px solid black;
+    border: 5px solid #66fcf1;
     width: 100%;
     margin: 0 auto;
-    background-color:#C1E1C1;
     padding: 20px;
     border-radius: 20px;
 }
@@ -53,7 +68,7 @@ img {
   }
 
   .slideDisplay {
-    BORDER: 3px solid black;
+    BORDER: 5px solid #66fcf1;
     border-radius: 50px;
     HEIGHT: 300px;
     WIDTH: 300px;
@@ -74,8 +89,9 @@ img {
   display: inline-block;
   margin: 0 10px;
   padding: 10px 15px;
-  background-color: #ddd;
-  color: #333;
+  border: 3px solid#66fcf1;
+  color: #ddd;
+  border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
@@ -85,3 +101,21 @@ img {
   background-color: #555;
   color: #fff;
 }
+
+/* for organizing text boxes */
+
+.textbox {
+    text-align: center;
+    border: 3px solid #66fcf1;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.font {
+    font-size: 25px;
+    color: #66fcf1;
+}
+
