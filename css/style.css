@@ -88,7 +88,7 @@ img {
   
 /* styling the images that are grided itself */
   .image-grid img {
-    transition: transform .7s ease;
+    transition: transform .8s ease;
     border-radius: 40px;
     margin: 10px;
     width: 200px;
