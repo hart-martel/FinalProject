@@ -37,7 +37,7 @@ marquee {
   }
 
   .price text {
-    font-size: 30px;
+    font-size: 500px;
     font-weight: 100;
     color: #66fcf1;
   }
@@ -88,6 +88,7 @@ img {
   
 /* styling the images that are grided itself */
   .image-grid img {
+    transition: transform .7s ease;
     border-radius: 40px;
     margin: 10px;
     width: 200px;
@@ -96,7 +97,8 @@ img {
 
 /*Animation of images */
   .image-grid img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+
   }
 
   .slideDisplay {
