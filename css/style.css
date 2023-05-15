@@ -9,9 +9,22 @@ marquee {
     margin-top: 2%;
     margin-bottom: 5%;
     color: #66fcf1;
+    font-family: "Arial", sans-serif;
     font-size: 36px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
   }
+
+  .title {
+    font-size: 24px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
   h1 {
     color: #66fcf1;
@@ -19,6 +32,25 @@ marquee {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
+  a {
+    color: #66fcf1;
+  }
+
+  .price text {
+    font-size: 30px;
+    font-weight: 100;
+    color: #66fcf1;
+  }
+
+  .selection {
+    border: 2px solid #66fcf1;
+    height: 30px;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 10px;
+
+
+  }
 /* for the images */
 img {
     border: 5px solid #66fcf1;
@@ -30,9 +62,9 @@ img {
 /* for the logo style */
 .logo {
     border: 5px solid #66fcf1;
-    border-radius: 150px; 
+    border-radius: 130px; 
     margin: 3px;
-    width: 300px;
+    width: 350px;
     height: 300px;
 }
 
