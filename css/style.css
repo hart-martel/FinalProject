@@ -153,3 +153,110 @@ img {
     color: #66fcf1;
 }
 
+/*//////////////////////////////////////////////////////////////// ORDER FORM /////////////////////////////*/
+
+body {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.orderformcontainer {
+  width: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px;
+  background-color: #292728;
+  border: solid 3px #66fcf1;
+  border-radius: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+form input[type="radio"] {
+  margin-right: 8px;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #66fcf1;
+  color: black;
+  font-weight: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #47a59f;
+}
+
+#quantity{
+  border-radius: 15px;
+  padding: 10px;
+}
+#product{
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.returnButtonContainer {
+  
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 15%;
+  text-align: center;
+  background-color: #66fcf1;
+  border-radius: 15px;
+  
+}
+
+#blackhref {
+  text-decoration: none;
+  color: black;
+  font-weight: 10px;
+}
+
+.orderhere {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  width: 15%;
+  text-align: center;
+  background-color: #66fcf1;
+  border-radius: 15px;
+}
+
+
