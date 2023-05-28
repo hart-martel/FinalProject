@@ -9,10 +9,11 @@ marquee {
     margin-top: 2%;
     margin-bottom: 5%;
     color: #66fcf1;
-    font-family: "Arial", sans-serif;
-    font-size: 36px;
+    letter-spacing: 3px;
+    font-size: 60px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    line-height: 1.5;
+    font-family: 'Monomaniac One', sans-serif;
+    
   }
 
   .title {
@@ -21,9 +22,12 @@ marquee {
     color: #333;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     margin-bottom: 50px;
     margin-top: 50px;
+    color: #66fcf1;
+    font-size: 30px;
+    font-family: 'Monomaniac One', sans-serif;
 }
 
   h1 {
@@ -34,6 +38,10 @@ marquee {
 
   a {
     color: #66fcf1;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
   }
 
   .price text {
@@ -44,13 +52,27 @@ marquee {
 
   .selection {
     border: 2px solid #66fcf1;
-    height: 30px;
-    margin-left: 33%;
-    margin-right: 33%;
+    height: 60px;
+    width: 800px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
+    
   }
+
+.companyInfoBorder {
+    border: 2px solid #66fcf1;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 /* for the images */
 img {
     border: 5px solid #66fcf1;
@@ -153,7 +175,7 @@ img {
     color: #66fcf1;
 }
 
-/*//////////////////////////////////////////////////////////////// ORDER FORM /////////////////////////////*/
+/*//////////////////////////////////////////////////////////////// ORDER FORM ///////////////////////////////////////////////////////////////////////////////////*/
 
 body {
   font-family: Arial, sans-serif;
@@ -232,24 +254,13 @@ form input[type="submit"]:hover {
   padding: 10px;
 }
 
-.returnButtonContainer {
-  
-  margin-top: 100px;
-  margin-left: 10px;
-  width: 15%;
-  text-align: center;
-  background-color: #66fcf1;
-  border-radius: 15px;
-  
-}
-
 #blackhref {
   text-decoration: none;
   color: black;
-  font-weight: 10px;
 }
 
-.orderhere {
+.button {  
+  margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 10px;
@@ -257,6 +268,25 @@ form input[type="submit"]:hover {
   text-align: center;
   background-color: #66fcf1;
   border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
+.button:hover, .button:hover {
+  background-color: #47a59f;
+  color: black;
+}
+
+.input {  
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  width: 15%;
+  text-align: center;
+  background-color: #66fcf1;
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
 
