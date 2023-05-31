@@ -290,3 +290,47 @@ form input[type="submit"]:hover {
   letter-spacing: 5px;
 }
 
+.round-button {
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+
+/*//////////////////////////////////////////////////////// J A V A   S C R I P T   D E S I G N ////////////////////////////////////////*/
+div.report-container { 
+  width: 400px; 
+  padding: 20px; 
+  margin-left: 30px; 
+  margin-right: 30px;
+  padding: 20px;
+  background-color: #292728;
+  border: solid 3px #66fcf1;
+  border-radius: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; 
+}
+
+div.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.report-container p{
+  font-size: 20px;
+}
+
+
+
+.buttonJS {  
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #66fcf1;
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
